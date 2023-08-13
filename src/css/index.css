@@ -1,0 +1,33 @@
+#grid{
+    display: grid;
+    flex-wrap: wrap;
+    gap: 10px;
+    grid-template-columns: repeat(5, 1fr);
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.gameBoard{
+    display: flex;
+    align-items: center;
+    background-size: contain;
+    justify-content: center;
+    margin-top: 6rem;
+    margin-right: 10rem;
+    margin-left: 0rem;
+    /* width: 100%; */
+    /* max-width: 600px; */
+}
+#card{
+    background-size: contain;
+    max-width: 150px;
+    max-height: 150px;
+}
+/* #found {
+    background-color: #9ad89af3;
+    border-radius: 10px;
+    max-width: 150px;
+    max-height: 150px;
+} */
